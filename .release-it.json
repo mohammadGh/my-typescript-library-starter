@@ -1,0 +1,15 @@
+{
+  "git": {
+    "commitMessage": "chore: release v${version}",
+    "requireBranch": "main",
+    "commitArgs": "--no-verify",
+    "push": "false"
+  },
+  "npm": {
+    "release": true
+  },
+  "hooks": {
+    "before:init": ["git pull", "pnpm lint"],
+    "after:bump": "changelogen --release"
+  }
+}
