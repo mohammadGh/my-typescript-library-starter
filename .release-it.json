@@ -10,6 +10,6 @@
   },
   "hooks": {
     "before:init": ["git pull", "pnpm lint"],
-    "after:bump": "changelogen"
+    "after:bump": "npx changelogen --output CHANGELOG.md"
   }
 }
