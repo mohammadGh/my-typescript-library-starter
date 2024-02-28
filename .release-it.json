@@ -3,8 +3,11 @@
     "commitMessage": "chore: release v${version}",
     "requireBranch": "main",
     "commitArgs": "--no-verify",
-    "push": "false",
     "tagName": "v${version}"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "v${version}"
   },
   "npm": {
     "release": true
