@@ -54,6 +54,26 @@ we use `Commitizen` for conventional commits. `husky` is used to enforce convent
 ## Test & Test Coverage
 `Vitest` is used for running tests and measure test coverage.
 
+`coverage-v8` is used to obtain coverage metrics.
+
+The test and coverage config file is `vitest.config.ts`. for example to exclude config files in the root of project from coverage analysis, we config `vitest.config.ts` like follow:
+
+```js
+import { configDefaults, defineConfig } from 'vitest/config'
+
+export default defineConfig({
+  test: {
+    coverage: {
+      exclude: [
+        ...configDefaults.exclude,
+        '*.config.js',
+        '*.config.ts',
+      ],
+    },
+  },
+})
+```
+
 ## Release-it for Releasing
 We use `release-it` for version management and publish to anywhere (npm or github). We also use its hooks to execute any command we need to test, build, and publish our project.
 
