@@ -1,7 +1,7 @@
 {
   "git": {
+    "changelog": "npx changelogen",
     "commitMessage": "chore: release v${version}",
-    "requireBranch": "main",
     "commitArgs": "--no-verify",
     "tagName": "v${version}"
   },
