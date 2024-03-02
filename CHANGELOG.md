@@ -3,6 +3,23 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v1.0.6
+
+[compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/v1.0.5...v1.0.6)
+
+### 🚀 Enhancements
+
+- Use release-it-beautiful-changelog plugin to generate changelog ([6a745d9](https://github.com/mohammadGh/my-typescript-library-starter/commit/6a745d9))
+
+### 🩹 Fixes
+
+- **build:** Changelog version tilte fixed ([cadf929](https://github.com/mohammadGh/my-typescript-library-starter/commit/cadf929))
+- **changelog:** Cleaning up the mess from old version changes ([708a86b](https://github.com/mohammadGh/my-typescript-library-starter/commit/708a86b))
+
+### ❤️ Contributors
+
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v1.0.5
 
 [compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/1.0.4...v1.0.5)
