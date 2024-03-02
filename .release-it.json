@@ -1,8 +1,6 @@
 {
   "git": {
-    "changelog": "npx changelogen",
     "commitMessage": "chore: release v${version}",
-    "commitArgs": "--no-verify",
     "tagName": "v${version}"
   },
   "github": {
@@ -13,7 +11,12 @@
     "release": true
   },
   "hooks": {
-    "before:init": ["git pull", "pnpm lint"],
-    "after:bump": "npx changelogen --output CHANGELOG.md"
+    "before:init": ["git pull", "pnpm lint", "pnpm build"]
+  },
+  "plugins": {
+    "release-it-beautiful-changelog": {
+      "disable": false,
+      "changelogFile": "./CHANGELOG.md"
+    }
   }
 }
