@@ -3,9 +3,9 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## 1.0.4...main
+## v1.0.5
 
-[compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/1.0.4...main)
+[compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/1.0.4...v1.0.5)
 
 ### 🚀 Enhancements
 
@@ -29,9 +29,9 @@ All considerable changes to this project will be documented in this file. See [s
 
 - Mgh <m.ghoreshi@gmail.com>
 
-## 1.0.3...main
+## 1.0.4
 
-[compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/1.0.3...main)
+[compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/1.0.3...1.0.4)
 
 ### 🩹 Fixes
 
