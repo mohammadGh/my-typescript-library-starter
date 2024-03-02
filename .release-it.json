@@ -1,11 +1,12 @@
 {
   "git": {
     "commitMessage": "chore: release v${version}",
-    "tagName": "v${version}"
+    "tagName": "v${version}",
+    "tagAnnotation": "Release v${version}"
   },
   "github": {
     "release": true,
-    "releaseName": "v${version}"
+    "releaseName": "Release v${version}"
   },
   "npm": {
     "release": true
