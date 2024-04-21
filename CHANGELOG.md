@@ -3,6 +3,33 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v1.1.0
+
+[compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/v1.0.6...v1.1.0)
+
+### 🚀 Enhancements
+
+- **git:** Only allow release on main branch ([58b3bfa](https://github.com/mohammadGh/my-typescript-library-starter/commit/58b3bfa))
+- Use CSpell for spell checking staged files and commit messages ([55dc2ea](https://github.com/mohammadGh/my-typescript-library-starter/commit/55dc2ea))
+
+### 🩹 Fixes
+
+- **github:** Fix prefix v for version for tagAnnotation and releaseName ([858fce6](https://github.com/mohammadGh/my-typescript-library-starter/commit/858fce6))
+
+### 📖 Documentation
+
+- **readme:** Add CSpell section and how to configure auto spell checker ([3b06b05](https://github.com/mohammadGh/my-typescript-library-starter/commit/3b06b05))
+- **readme:** Fix typo ([58c676b](https://github.com/mohammadGh/my-typescript-library-starter/commit/58c676b))
+- Fix typo ([1b487c5](https://github.com/mohammadGh/my-typescript-library-starter/commit/1b487c5))
+
+### 🏡 Chore
+
+- **dependencies:** Update dependencies ([e1e1bab](https://github.com/mohammadGh/my-typescript-library-starter/commit/e1e1bab))
+
+### ❤️ Contributors
+
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v1.0.6
 
 [compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/v1.0.5...v1.0.6)
