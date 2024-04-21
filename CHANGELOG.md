@@ -13,7 +13,7 @@ All considerable changes to this project will be documented in this file. See [s
 
 ### 🩹 Fixes
 
-- **build:** Changelog version tilte fixed ([cadf929](https://github.com/mohammadGh/my-typescript-library-starter/commit/cadf929))
+- **build:** Changelog version title fixed ([cadf929](https://github.com/mohammadGh/my-typescript-library-starter/commit/cadf929))
 - **changelog:** Cleaning up the mess from old version changes ([708a86b](https://github.com/mohammadGh/my-typescript-library-starter/commit/708a86b))
 
 ### ❤️ Contributors
@@ -26,7 +26,7 @@ All considerable changes to this project will be documented in this file. See [s
 
 ### 🚀 Enhancements
 
-- **build:** Relase-it tag name configured to prefix `v` ([c382d62](https://github.com/mohammadGh/my-typescript-library-starter/commit/c382d62))
+- **build:** Release-it tag name configured to prefix `v` ([c382d62](https://github.com/mohammadGh/my-typescript-library-starter/commit/c382d62))
 - **build:** Add release to github ([d35ee30](https://github.com/mohammadGh/my-typescript-library-starter/commit/d35ee30))
 
 ### 🩹 Fixes
@@ -63,7 +63,7 @@ All considerable changes to this project will be documented in this file. See [s
 
 ### 🏡 Chore
 
-- **init:** Initialize project with required dependency anc configuration ([0067d35](https://github.com/mohammadGh/my-typescript-library-starter/commit/0067d35))
+- **init:** Initialize project with required dependency and configuration ([0067d35](https://github.com/mohammadGh/my-typescript-library-starter/commit/0067d35))
 
 ### ❤️ Contributors
 
