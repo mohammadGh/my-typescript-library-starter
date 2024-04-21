@@ -34,7 +34,7 @@ pnpm commit
 ``` sell
 pnpm release
 ```
-after releasing the `change-log doc` automtically generated to `CHANGELOG.md` file at the root of the project.
+after releasing the `change-log doc` automatically generated to `CHANGELOG.md` file at the root of the project.
 
 ## ESLint & ESLint Configuration
 We use @antfu amazing eslint configuration. Js file `eslint.config.js` configures the `eslint`. It extends antfu's configuration but you can customize it. for example if you prefer to use double-quotations for string, change this file as:
