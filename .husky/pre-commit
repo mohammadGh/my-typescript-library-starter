@@ -1,1 +1,5 @@
+# lint only staged files
 pnpm lint-staged
+
+# run spell checker for stage files
+pnpm cspell --no-summary --no-progress --file $(git diff --name-only --cached)

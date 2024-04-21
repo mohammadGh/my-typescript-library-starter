@@ -37,11 +37,5 @@
     "json",
     "jsonc",
     "yaml"
-  ],
-  "cSpell.words": [
-    "antfu",
-    "changelogen",
-    "commitlint",
-    "typecheck"
   ]
 }
