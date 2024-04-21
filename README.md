@@ -80,5 +80,16 @@ We use `release-it` for version management and publish to anywhere (npm or githu
 ## Auto Changelog based on Conventional Commits
 We use `changelogen` to generate beautiful changelogs using Conventional Commits.
 
+## CSpell
+`CSpell` used to automatically check for spelling errors when committing files and writing commit messages.
+
+If there are spelling errors in the staged files for commit, `husky` will prevent you from committing.
+Also, if the commit message text has spelling errors, `husky` will still prevent the commit.
+
+Additional Notes:
+
+ - You can configure CSpell in `cspell.json` file in your project directory.
+ - You can list words that you want `CSpell` to ignore in `/project-words.txt` file.
+
 ## License
 [MIT](./LICENSE) License
