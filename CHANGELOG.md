@@ -3,6 +3,18 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v1.1.1
+
+[compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/v1.1.0...v1.1.1)
+
+### 🩹 Fixes
+
+- Fix bug to ignore auto spell checking for staged deleted files ([4d339df](https://github.com/mohammadGh/my-typescript-library-starter/commit/4d339df))
+
+### ❤️ Contributors
+
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v1.1.0
 
 [compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/v1.0.6...v1.1.0)
