@@ -2,4 +2,4 @@
 pnpm lint-staged
 
 # run spell checker for staged files
-pnpm cspell --no-summary --no-progress --files $(git diff --diff-filter=d --name-only --cached)
+pnpm cspell --no-summary --no-progress --no-must-find-files --files $(git diff --diff-filter=d --name-only --cached)
