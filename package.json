@@ -45,7 +45,8 @@
     "prepare": "husky",
     "cz": "cz",
     "commit": "cz",
-    "release": "release-it"
+    "release": "release-it",
+    "spell": "cspell ."
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:lint",

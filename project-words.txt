@@ -4,12 +4,10 @@ arethetypeswrong
 attw
 changelogen
 commitlint
-esbuild
 publint
 rolldown
 tsdown
 typecheck
-unbuild
 mori
 tutamail
 commitizen
