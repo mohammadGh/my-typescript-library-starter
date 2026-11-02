@@ -1,8 +1,18 @@
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+
+peerDependencyRules:
+  allowedVersions:
+    tsdown-stale-guard>tsdown: 0.23.4
+
+shellEmulator: true
+
 packages:
   - playground
   - docs
   - packages/*
   - examples/*
+
 allowBuilds:
   esbuild: true
   pnpm: true

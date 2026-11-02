@@ -1,1 +1,1 @@
-export const HelloFromMyTypeScriptLibrary: string = 'Hi, it\'s just another starter library!'
+export const HelloFromLib: string = 'Hi, it\'s just another starter template!'

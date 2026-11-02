@@ -1,5 +1,12 @@
 antfu
+antislop
+arethetypeswrong
+attw
 changelogen
 commitlint
-typecheck
 esbuild
+publint
+rolldown
+tsdown
+typecheck
+unbuild

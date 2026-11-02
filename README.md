@@ -2,6 +2,7 @@
 
 A boilerplate (template starter) for starting a TypeScript library with ease; equipped with:
 
+ - **tsdown**: fast Rolldown-powered bundler with declaration generation, automatic `exports` generation, `publint` and `arethetypeswrong` checks, and build freshness tracking
  - **ESLint**: auto fix for formatting (no Prettier needed)
  - **Commitizen**: conventional commit interactive-cli helper
  - **Husky**: enforce eslint rules, conventional commit message before each commit
@@ -13,7 +14,7 @@ A boilerplate (template starter) for starting a TypeScript library with ease; eq
 > [!IMPORTANT]
 > After cloning the repo, replace `name`, `version`, `description`, `author`, `homepage` and `repository related links` fields in `package.json` to use this template.
 
-** ** Now enter repo's directory and **install dependency** using 'npm' or 'pnpm':
+Now enter the repo's directory and **install dependencies** using `npm` or `pnpm`:
 
 ``` shell
 pnpm i
@@ -22,6 +23,15 @@ pnpm i
 **2)** to **build** project:
 ``` shell
 pnpm build
+```
+
+The library is built with [tsdown](https://tsdown.dev) and is **ESM-only** by default. The build emits `dist/index.js` and `dist/index.d.ts`, generates the `exports` field in `package.json`, and runs `publint` and `attw` as part of the build.
+
+To also ship CommonJS, uncomment `format: ['esm', 'cjs']` in `tsdown.config.ts`. The build will then emit `.cjs` and `.d.cts` outputs and update `exports` accordingly.
+
+For development with rebuilds:
+``` shell
+pnpm dev
 ```
 
 **3)** to **commit** using commitizen-cli, after adding modified files to  stage, enter `pnpm commit` instead of `git commit`:
