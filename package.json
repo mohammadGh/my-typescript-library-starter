@@ -6,12 +6,12 @@
   "description": "A modern TypeScript library starter with an ESM-first build, ESLint, Vitest, Conventional Commits, automated releases, and automatic spell-checking for everything",
   "author": "Mori <itsmori@tutamail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/mohammadGh/ts-lib-starter-kit",
+  "homepage": "https://github.com/moriloop/ts-lib-starter-kit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohammadGh/ts-lib-starter-kit.git"
+    "url": "git+https://github.com/moriloop/ts-lib-starter-kit.git"
   },
-  "bugs": "https://github.com/mohammadGh/ts-lib-starter-kit/issues",
+  "bugs": "https://github.com/moriloop/ts-lib-starter-kit/issues",
   "keywords": [
     "typescript",
     "eslint",
