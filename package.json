@@ -4,7 +4,7 @@
   "version": "1.1.1",
   "packageManager": "pnpm@12.16.1",
   "description": "A boilerplate for starting a TypeScript library, equipped with Vitest + ESLint + Commitizen + Husky + Release-it and generating beautiful change-log with Changelogen",
-  "author": "mgh <m.ghoreshi@gmail.com>",
+  "author": "Mori <itsmori@tutamail.com>",
   "license": "MIT",
   "homepage": "https://github.com/mohammadGh/my-typescript-library-starter",
   "repository": {
