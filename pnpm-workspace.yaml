@@ -3,3 +3,6 @@ packages:
   - docs
   - packages/*
   - examples/*
+allowBuilds:
+  esbuild: true
+  pnpm: true

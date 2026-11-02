@@ -2,3 +2,4 @@ antfu
 changelogen
 commitlint
 typecheck
+esbuild
