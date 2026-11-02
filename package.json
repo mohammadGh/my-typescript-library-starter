@@ -76,7 +76,7 @@
     "vitest": "catalog:test"
   },
   "lint-staged": {
-    "*.{js,cjs,ts,vue,yml}": "eslint --fix"
+    "*.*": "eslint --fix"
   },
   "config": {
     "commitizen": {

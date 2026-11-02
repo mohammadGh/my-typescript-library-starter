@@ -2,22 +2,22 @@
 
 A modern, batteries-included starter for TypeScript libraries. It ships an ESM-first
 [tsdown](https://tsdown.dev) build, a zero-config linting stack, tests with coverage,
-Conventional Commits, and automated releases — with no Prettier required.
+Conventional Commits, and automated releases - with no Prettier required.
 
 ## What's inside
 
-- **Build** — tsdown (Rolldown-powered) with declaration files, generated `exports`,
+- **Build** - tsdown (Rolldown-powered) with declaration files, generated `exports`,
   `publint` + `arethetypeswrong` validation, and stale-build tracking.
-- **Code quality** — ESLint flat config via `@antfu/eslint-config` (formatting included),
-  cspell spell checking, and strict TypeScript.
-- **Testing** — Vitest with V8 coverage.
-- **Commits** — Commitizen prompts, Commitlint rules, Husky hooks, and lint-staged.
-- **Release** — release-it for versioning and publishing, changelogen for changelogs.
-- **Extras** — pnpm dependency catalogs, a CI workflow, and shared VS Code settings.
+- **Code quality** - ESLint flat config via `@antfu/eslint-config` (formatting included) and strict TypeScript.
+- **Testing** - Vitest with V8 coverage.
+- **Commits** - Commitizen prompts, Commitlint rules, Husky hooks, and lint-staged.
+- **Release** - release-it for versioning and publishing, changelogen for changelogs.
+- **CSpell** - Autoamting spell checking for everythings (including commit messages).
+- **Extras** - pnpm dependency catalogs, a CI workflow, and shared VS Code settings.
 
 ## Quick start
 
-Requires Node.js LTS and [pnpm](https://pnpm.io) — pnpm is required because dependency
+Requires Node.js LTS and [pnpm](https://pnpm.io) - pnpm is required because dependency
 versions are managed with pnpm catalogs.
 
 ```bash
@@ -72,7 +72,7 @@ part of the build.
 To also ship CommonJS, uncomment the `format` line in `tsdown.config.ts`:
 
 ```ts
-format: ['esm', 'cjs'],
+format: ['esm', 'cjs']
 ```
 
 The build then emits `.cjs` and `.d.cts` outputs and updates `exports` accordingly.
@@ -82,7 +82,7 @@ Node-only library that supports older runtimes.
 
 ## Linting & formatting
 
-Formatting is handled by ESLint through `@antfu/eslint-config` — no Prettier needed.
+Formatting is handled by ESLint through `@antfu/eslint-config` - no Prettier needed.
 Customize the rules in `eslint.config.ts`:
 
 ```ts
@@ -131,8 +131,8 @@ pnpm commit
 
 Husky enforces quality before a commit lands:
 
-- **pre-commit** — runs lint-staged on staged code files, then cspell on all staged files.
-- **commit-msg** — validates the message with Commitlint and spell-checks it with cspell.
+- **pre-commit** - runs lint-staged on staged code files, then cspell on all staged files.
+- **commit-msg** - validates the message with Commitlint and spell-checks it with cspell.
 
 Rules live in `commitlint.config.ts` and extend `@commitlint/config-conventional`.
 

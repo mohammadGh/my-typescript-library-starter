@@ -1,3 +1,4 @@
+ignoreWorkspaceRootCheck: true
 minimumReleaseAgeExcludePrune: true
 trustPolicy: no-downgrade
 
@@ -7,41 +8,6 @@ peerDependencyRules:
 
 shellEmulator: true
 
-catalogs:
-  lint:
-    '@antfu/eslint-config': ^10.0.0
-    cspell: ^10.4.0
-    eslint: ^10.14.0
-    eslint-plugin-slop: ^0.1.3
-    eslint-plugin-sonarjs: ^4.2.2
-  test:
-    '@vitest/coverage-v8': ^5.0.5
-    vitest: ^5.0.5
-  build:
-    '@arethetypeswrong/core': ^0.18.1
-    publint: ^0.3.25
-    tsdown: ^0.23.4
-    tsdown-stale-guard: ^0.1.3
-    typescript: ^6.0.3
-    vite: ^8.3.5
-  release:
-    changelogen: ^0.6.2
-    release-it: ^21.1.2
-    release-it-beautiful-changelog: ^0.2.1
-  commit:
-    '@commitlint/cli': ^21.2.4
-    '@commitlint/config-conventional': ^21.2.4
-    commitizen: ^4.3.2
-    cz-conventional-changelog: ^3.3.0
-    husky: ^9.1.7
-    lint-staged: ^17.6.0
-  types:
-    '@types/node': ^26.6.6
-  tooling:
-    '@antfu/ni': ^30.6.0
-    '@antfu/utils': ^9.3.0
-    pnpm: ^12.16.1
-
 packages:
   - playground
   - docs
@@ -49,5 +15,46 @@ packages:
   - examples/*
 
 allowBuilds:
-  esbuild: true
   pnpm: true
+
+catalogs:
+
+  build:
+    '@arethetypeswrong/core': ^0.18.1
+    publint: ^0.3.25
+    tsdown: ^0.23.4
+    tsdown-stale-guard: ^0.1.3
+    typescript: ^6.0.3
+    vite: ^8.3.5
+
+  commit:
+    '@commitlint/cli': ^21.2.4
+    '@commitlint/config-conventional': ^21.2.4
+    commitizen: ^4.3.2
+    cz-conventional-changelog: ^3.3.0
+    husky: ^9.1.7
+    lint-staged: ^17.6.0
+
+  lint:
+    '@antfu/eslint-config': ^10.0.0
+    cspell: ^10.4.0
+    eslint: ^10.14.0
+    eslint-plugin-slop: ^0.1.3
+    eslint-plugin-sonarjs: ^4.2.2
+
+  release:
+    changelogen: ^0.6.2
+    release-it: ^21.1.2
+    release-it-beautiful-changelog: ^0.2.1
+
+  test:
+    '@vitest/coverage-v8': ^5.0.5
+    vitest: ^5.0.5
+
+  tooling:
+    '@antfu/ni': ^30.6.0
+    '@antfu/utils': ^9.3.0
+    pnpm: ^12.16.1
+
+  types:
+    '@types/node': ^26.6.6
