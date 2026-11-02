@@ -12,3 +12,6 @@ typecheck
 unbuild
 mori
 tutamail
+commitizen
+vite
+vitest
