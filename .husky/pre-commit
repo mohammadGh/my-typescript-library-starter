@@ -1,5 +1,17 @@
+#!/usr/bin/env sh
+set -eu
+
 # lint only staged files
-pnpm lint-staged
+if git diff --cached --name-only --diff-filter=ACMR \
+  | grep -Eq '\.(js|jsx|ts|tsx|mjs|cjs|mts|cts|vue)$'; then
+  pnpm lint-staged
+else
+  echo "No staged code files; skipping lint-staged."
+fi
 
 # run spell checker for staged files
-pnpm cspell --no-summary --no-progress --no-must-find-files --files $(git diff --diff-filter=d --name-only --cached)
+git diff --cached --name-only --diff-filter=ACMR -z \
+  | xargs -0 -r pnpm cspell \
+      --no-summary \
+      --no-progress \
+      --no-must-find-files

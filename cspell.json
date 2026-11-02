@@ -9,5 +9,12 @@
     }
   ],
   "dictionaries": ["project-words"],
-  "ignorePaths": ["node_modules", "dist", "*-lock.yaml", "/project-words.txt"]
+  "ignorePaths": [
+    "CHANGELOG.md",
+    "README.md",
+    "node_modules",
+    "dist",
+    "*-lock.yaml",
+    "/project-words.txt"
+  ]
 }
