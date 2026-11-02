@@ -1,4 +1,4 @@
-# my-typescript-library-starter
+# ts-lib-starter-kit
 
 A modern, batteries-included starter for TypeScript libraries. It ships an ESM-first
 [tsdown](https://tsdown.dev) build, a zero-config linting stack, tests with coverage,
