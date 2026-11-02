@@ -1,7 +1,7 @@
 {
   "name": "ts-lib-starter-kit",
   "type": "module",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "packageManager": "pnpm@12.16.1",
   "description": "A modern TypeScript library starter with an ESM-first build, ESLint, Vitest, Conventional Commits, automated releases, and automatic spell-checking for everything",
   "author": "Mori <itsmori@tutamail.com>",

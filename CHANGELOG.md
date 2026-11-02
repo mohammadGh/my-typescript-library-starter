@@ -3,6 +3,42 @@
 
 All considerable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v2.0.0
+
+[compare changes](https://github.com/mohammadGh/ts-lib-starter-kit/compare/v1.1.1...v2.0.0)
+
+### 🚀 Enhancements
+
+- Add spell script to run pnpm spell ([097f910](https://github.com/mohammadGh/ts-lib-starter-kit/commit/097f910))
+
+### 🩹 Fixes
+
+- **build:** Cspell pre-commit checker fixed when all staged files are ignored by cspell's rules ([5d2ff94](https://github.com/mohammadGh/ts-lib-starter-kit/commit/5d2ff94))
+- Skip pre-commit stage-lint when no files needed linting ([b8488df](https://github.com/mohammadGh/ts-lib-starter-kit/commit/b8488df))
+- Linting all stage files before commit ([2df74dc](https://github.com/mohammadGh/ts-lib-starter-kit/commit/2df74dc))
+
+### 📖 Documentation
+
+- Refresh README and package description ([c64e271](https://github.com/mohammadGh/ts-lib-starter-kit/commit/c64e271))
+- Add AGENTS.md with project conventions ([778e288](https://github.com/mohammadGh/ts-lib-starter-kit/commit/778e288))
+
+### 📦 Build
+
+- Migrate from unbuild to tsdown ([0d85720](https://github.com/mohammadGh/ts-lib-starter-kit/commit/0d85720))
+- Organize dev dependencies with pnpm catalogs ([0dfe734](https://github.com/mohammadGh/ts-lib-starter-kit/commit/0dfe734))
+- Add type-check and test to pre-release actions ([9e8b8a0](https://github.com/mohammadGh/ts-lib-starter-kit/commit/9e8b8a0))
+
+### 🏡 Chore
+
+- Update deps ([b4fefa9](https://github.com/mohammadGh/ts-lib-starter-kit/commit/b4fefa9))
+- Update package author ([ceb3035](https://github.com/mohammadGh/ts-lib-starter-kit/commit/ceb3035))
+- Rename package to ts-lib-starter-kit ([d17ed4a](https://github.com/mohammadGh/ts-lib-starter-kit/commit/d17ed4a))
+
+### ❤️ Contributors
+
+- Mori ([@moriloop](https://github.com/moriloop))
+- Mgh <m.ghoreshi@gmail.com>
+
 ## v1.1.1
 
 [compare changes](https://github.com/mohammadGh/my-typescript-library-starter/compare/v1.1.0...v1.1.1)
